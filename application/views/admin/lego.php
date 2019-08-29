@@ -9,7 +9,7 @@
 		  <table class="table table-bordered" width="100%" cellspacing="0">
 		    <thead align="center">
 		      <tr>
-		        <th width="30%">Deskripsi lego</th>
+		        <th width="30%">Deskripsi</th>
 		        <th width="13%">Baik</th>
 		        <th width="13%">Sangat Baik</th>
 		        <th>Keterangan</th>

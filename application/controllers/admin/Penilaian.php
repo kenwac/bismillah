@@ -27,7 +27,7 @@ class Penilaian extends CI_Controller {
 		// $data['Projek']=$Projek;
 		
 
-		$this->load->view('admin/viewNilai',$data);
+		$this->load->view('admin/HasilRapot/viewNilai',$data);
 	}
 
 	public function print()

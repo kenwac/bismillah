@@ -16,21 +16,13 @@
 		<div class="container-fluid">
 
 		 <!-- DataTables Example -->
-		 <table>
-		 	<tr>
-		 		<td>
-		    	Kemampuan motorik siswa <b><?php echo $motorik ?></b> dan kekreativan dalam merancang lego pun <b><?php echo $Kreativ ?></b>
-		                		
-		    </td>
-		 	</tr>
-		 </table>
-		 
-		 	
-		        
+		 <?php $this->load->view("admin/_partials/tables.php") ?>
+		 <?php $this->load->view("admin/HasilRapot/nilaiLego.php") ?>
+		 <?php $this->load->view("admin/HasilRapot/nilaiProject.php") ?>
+		       
 		</div>
-
 		<div class="col-lg-6">
-			<input type="submit" class="btn btn-success btn-icon-split"  value="Kirim">
+			<input type="submit" class="btn btn-success btn-icon-split"  value="Print PDF">
 		</div>
 
     </div>
