@@ -1,7 +1,7 @@
 	<div class="card mb-3">
 		<div class="card-header">
 		<!-- <i class="fas fa-table"></i> -->
-			<h5>Lego</h5>
+			<h5>Animasi</h5>
 		</div>
 		    <!-- <div class="card-body"> -->
 		<div class="table-responsive">
@@ -17,36 +17,35 @@
 		    </thead>
 		    <tbody >
 		      <tr>
-		        <td>Motorik Anak</td>
+		        <td>Ketepatan Waktu</td>
 		        <td align="center"><input type="radio" name="motorik" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="motorik" value="Baik"></td>
 		        <td> <!-- <?php echo $motorik; ?> --></td>
 		      </tr>
 		      <tr>
+		        <td>Ketepatan Instruksi</td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
+		        <td></td>
+		      </tr>
+		       <tr>
 		        <td>Kreativitas</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
 		        <td></td>
 		      </tr>
-		      <tr>
-		        <td>Ketepatan Bentuk</td>
+		       <tr>
+		        <td>Presentasi</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
 		        <td></td>
 		      </tr>
 		       <tr>
-		        <td>Ketepatan Coding</td>
+		        <td>Penggunaan Komputer</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
 		        <td></td>
 		      </tr>
-		       <tr>
-		        <td>Pengendalian Robot</td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
-		      </tr>
-		      
 		    </tbody>
 		  </table>
 		</div>

@@ -17,17 +17,42 @@
 		    </thead>
 		    <tbody >
 		      <tr>
-		        <td>Motorik Anak</td>
+		        <td>Kemampuan Menyolder</td>
 		        <td align="center"><input type="radio" name="motorik" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="motorik" value="Baik"></td>
 		        <td> <!-- <?php echo $motorik; ?> --></td>
 		      </tr>
 		      <tr>
-		        <td>Kekreativan</td>
+		        <td>Lem Tembak</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td>37</td>
+		        <td></td>
 		      </tr>
+		       <tr>
+		        <td>Ketepatan Waktu</td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
+		        <td></td>
+		      </tr>
+		       <tr>
+		        <td>Ketepatan Intruksi</td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
+		        <td></td>
+		      </tr>
+		       <tr>
+		        <td>Presentasi</td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
+		        <td></td>
+		      </tr>
+		       <tr>
+		        <td>Kreativitas</td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
+		        <td></td>
+		      </tr>
+		      
 		    </tbody>
 		  </table>
 		</div>
