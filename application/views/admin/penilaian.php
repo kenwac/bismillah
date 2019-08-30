@@ -18,6 +18,7 @@
 		 <!-- DataTables Example -->
 		 
 		 	<?php $this->load->view("admin/_partials/tables.php") ?>
+		 	<?php $this->load->view("admin/datasiswa.php") ?>
 		 	<?php $this->load->view("admin/lego.php") ?>
             <?php $this->load->view("admin/project.php") ?>
             <?php $this->load->view("admin/animasi.php") ?>
