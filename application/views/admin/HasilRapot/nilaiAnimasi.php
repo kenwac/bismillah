@@ -1,7 +1,7 @@
 	<div class="card mb-3">
 		<div class="card-header">
 		<!-- <i class="fas fa-table"></i> -->
-			<h5>Lego</h5>
+			<h5>Animasi</h5>
 		</div>
 		    <!-- <div class="card-body"> -->
 		<div class="table-responsive">
