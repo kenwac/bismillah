@@ -19,6 +19,7 @@
 		 <?php $this->load->view("admin/_partials/tables.php") ?>
 		 <?php $this->load->view("admin/HasilRapot/nilaiLego.php") ?>
 		 <?php $this->load->view("admin/HasilRapot/nilaiProject.php") ?>
+		 <?php $this->load->view("admin/HasilRapot/nilaiAnimasi.php") ?>
 		       
 		</div>
 		<div class="col-lg-6">
