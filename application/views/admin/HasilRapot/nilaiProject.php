@@ -9,8 +9,14 @@
 		  <table class="table table-bordered" width="100%" cellspacing="0">
 		    <tr>
 		 		<td>
-		    	Kemampuan motorik siswa <b><?php echo $motorik ?></b> dan kekreativan dalam merancang lego pun <b><?php echo $Kreativ ?></b>
-		                		
+		    	Kemampuan motorik siswa <b><?php echo $Motorik ?></b> dan kekreativan dalam merancang lego pun <b><?php echo $Kreativitas ?></b>
+		    	<?php 
+		    		echo $Motorik;
+		    		echo $Kreativitas;
+		    		echo $Ketepatan_Bentuk;
+		    		echo $Ketepatan_Coding;
+		    		echo $Pengendalian_Robot;
+		    	?>    		
 		    </td>
 		 	</tr>
 		  </table>

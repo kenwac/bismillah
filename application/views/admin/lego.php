@@ -1,3 +1,4 @@
+
 	<div class="card mb-3">
 		<div class="card-header">
 		<!-- <i class="fas fa-table"></i> -->
@@ -5,46 +6,47 @@
 		</div>
 		    <!-- <div class="card-body"> -->
 		<div class="table-responsive">
-		<form method="post" action="<?php echo base_url()?>index.php/admin/Penilaian/nilai">
+		<form method="post" name="form1" action="<?php echo base_url()?>index.php/admin/Penilaian/nilai" onsubmit="required()">
+		<!-- //form_open(base_url('admin/Penilaian/validasi'));  -->
 		  <table class="table table-bordered" width="100%" cellspacing="0">
 		    <thead align="center">
 		      <tr>
-		        <th width="30%">Deskripsi</th>
-		        <th width="13%">Baik</th>
-		        <th width="13%">Sangat Baik</th>
-		        <th>Keterangan</th>
+		        <th width="">Deskripsi</th>
+		        <th width="15%">Baik</th>
+		        <th width="15%">Sangat Baik</th>
 		      </tr>
 		    </thead>
 		    <tbody >
 		      <tr>
 		        <td>Motorik Anak</td>
-		        <td align="center"><input type="radio" name="motorik" value="Sangat Baik"></td>
-		        <td align="center"><input type="radio" name="motorik" value="Baik"></td>
-		        <td> <!-- <?php echo $motorik; ?> --></td>
+		        <?php //echo form_error('Motorik'); ?>
+		        <td align="center"><input type="radio" name="Motorik" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Motorik" value="Baik"></td>
+		       
 		      </tr>
 		      <tr>
 		        <td>Kreativitas</td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		        <td align="center"><input type="radio" name="Kreativitas" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Kreativitas" value="Baik"></td>
+		        
 		      </tr>
 		      <tr>
 		        <td>Ketepatan Bentuk</td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		        <td align="center"><input type="radio" name="Ketepatan_Bentuk" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Ketepatan_Bentuk" value="Baik"></td>
+		        
 		      </tr>
 		       <tr>
 		        <td>Ketepatan Coding</td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		        <td align="center"><input type="radio" name="Ketepatan_Coding" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Ketepatan_Coding" value="Baik"></td>
+		        
 		      </tr>
 		       <tr>
 		        <td>Pengendalian Robot</td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
-		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		        <td align="center"><input type="radio" name="Pengendalian_Robot" value="Sangat Baik"></td>
+		        <td align="center"><input type="radio" name="Pengendalian_Robot" value="Baik"></td>
+		        
 		      </tr>
 		      
 		    </tbody>

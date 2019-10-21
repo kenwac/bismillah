@@ -9,10 +9,10 @@
 		  <table class="table table-bordered" width="100%" cellspacing="0">
 		    <thead align="center">
 		      <tr>
-		        <th width="30%">Deskripsi</th>
-		        <th width="13%">Baik</th>
-		        <th width="13%">Sangat Baik</th>
-		        <th>Keterangan</th>
+		        <th width="">Deskripsi</th>
+		        <th width="15%">Baik</th>
+		        <th width="15%">Sangat Baik</th>
+		       
 		      </tr>
 		    </thead>
 		    <tbody >
@@ -20,37 +20,37 @@
 		        <td>Kemampuan Menyolder</td>
 		        <td align="center"><input type="radio" name="motorik" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="motorik" value="Baik"></td>
-		        <td> <!-- <?php echo $motorik; ?> --></td>
+		        
 		      </tr>
 		      <tr>
 		        <td>Lem Tembak</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		   
 		      </tr>
 		       <tr>
 		        <td>Ketepatan Waktu</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		
 		      </tr>
 		       <tr>
 		        <td>Ketepatan Intruksi</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		        
 		      </tr>
 		       <tr>
 		        <td>Presentasi</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		      
 		      </tr>
 		       <tr>
 		        <td>Kreativitas</td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Sangat Baik"></td>
 		        <td align="center"><input type="radio" name="Kreativ" value="Baik"></td>
-		        <td></td>
+		      
 		      </tr>
 		      
 		    </tbody>
